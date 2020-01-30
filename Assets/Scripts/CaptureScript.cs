@@ -6,7 +6,7 @@ using DG.Tweening;
 using UnityEngine.SceneManagement;
 using Cinemachine;
 
-public class CaptureTest : MonoBehaviour
+public class CaptureScript : MonoBehaviour
 {
     public CinemachineVirtualCamera gameCamera;
     CinemachineImpulseSource impulse;
@@ -59,6 +59,9 @@ public class CaptureTest : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+            Time.timeScale = (Time.timeScale == 1) ? .2f : 1;
 
         if (currentGhost != null)
         {

@@ -22,8 +22,6 @@ public class RandomRotation : MonoBehaviour
 
     IEnumerator RotateTo()
     {
-        //print("new rotation");
-
         yRot += Random.Range(15, 45) * (right ? 1 : -1);
         float distance = Mathf.Abs(Mathf.DeltaAngle(transform.localEulerAngles.y, yRot));
 
@@ -59,7 +57,7 @@ public class RandomRotation : MonoBehaviour
 
     private void OnDestroy()
     {
-        if(FindObjectOfType<CaptureTest>() != null)
-            transform.rotation = FindObjectOfType<CaptureTest>().transform.rotation;
+        if(FindObjectOfType<CaptureScript>() != null)
+            transform.rotation = FindObjectOfType<CaptureScript>().transform.rotation;
     }
 }

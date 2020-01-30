@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tornado 1
+  m_Name: TornadoMaterial2
   m_Shader: {fileID: -6465566751694194690, guid: 98faf29138aa1b2409b9a5e3fe0ac730,
     type: 3}
   m_ShaderKeywords: 
@@ -55,11 +55,11 @@ Material:
     m_Floats:
     - Opacity: 0.5
     - Vector1_1AF0352: 2
-    - Vector1_35FF641F: 0.41
-    - Vector1_50D4C63E: 3
-    - Vector1_AAAE0B42: 2
-    - Vector1_B3725099: 2
-    - Vector1_C54C3977: 2
+    - Vector1_35FF641F: 0.04
+    - Vector1_50D4C63E: 2.5
+    - Vector1_AAAE0B42: 1.84
+    - Vector1_B3725099: 1
+    - Vector1_C54C3977: 4.86
     - Vector1_CFA39E05: 0
     - _AlphaClip: 0
     - _Blend: 0
@@ -83,11 +83,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_2909F898: {r: 1, g: 1, b: 1, a: 0}
-    - Color_9DDFB357: {r: 1, g: 1, b: 1, a: 0}
-    - Vector2_BC563CE1: {r: 0.5, g: 1, b: 0, a: 0}
+    - Color_2909F898: {r: 0, g: 1.7561249, b: 4.5947943, a: 1}
+    - Color_9DDFB357: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+    - Vector2_BC563CE1: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_FA3650DA: {r: 1, g: 1, b: 0, a: 0}
-    - Vector3_658E1C16: {r: 1, g: 1, b: 1, a: 0}
+    - Vector3_658E1C16: {r: 6, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

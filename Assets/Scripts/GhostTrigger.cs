@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class GhostTrigger : MonoBehaviour
 {
-    private CaptureTest capture;
+    private CaptureScript capture;
 
     private void Start()
     {
-        capture = FindObjectOfType<CaptureTest>();
+        capture = FindObjectOfType<CaptureScript>();
     }
 
     private void OnTriggerEnter(Collider other)

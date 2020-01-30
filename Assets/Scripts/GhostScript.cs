@@ -5,7 +5,7 @@ using DG.Tweening;
 
 public class GhostScript : MonoBehaviour
 {
-    CaptureTest capture;
+    CaptureScript capture;
     Vector3 playerPos;
     RandomRotation randomRot;
 
@@ -31,7 +31,7 @@ public class GhostScript : MonoBehaviour
     private void Start()
     {
         randomRot = GetComponent<RandomRotation>();
-        capture = FindObjectOfType<CaptureTest>();
+        capture = FindObjectOfType<CaptureScript>();
     }
 
     public void Stun()
